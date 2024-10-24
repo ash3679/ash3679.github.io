@@ -1,0 +1,157 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2f95b6; 
+    color: Yellow;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav a {
+    color: Yellow;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.dropdown {
+    /*position: relative;*
+    display: flex;
+    align-items: center;*/
+    
+}
+
+
+#dropdownoneID{
+
+
+    color: peru;
+}
+
+
+.dropdown .dropbtn {
+    background-color: #2f95b6;
+    /*color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    
+    text-decoration: none;*/
+    
+    border: none;
+    cursor: pointer;
+    color: Yellow;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    
+    
+}
+.dropdown .dropbtn:hover {
+    text-decoration: underline;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 1px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.hero {
+    background: url('image/computer-engineering-header.jpeg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: yellow;
+}
+.hero h1, .hero p {
+    margin: 0 0 20px;
+}
+.section {
+    padding: 20px;
+    text-align: center;
+}
+.contact, .about-me {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-projects-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-me-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+}
+.about-me-text {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+}
+.profile-photo {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+}
+.school-logo {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+.footer {
+    background-color: #2f95b6; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
